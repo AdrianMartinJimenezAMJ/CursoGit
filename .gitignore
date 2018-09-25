@@ -1,0 +1,12 @@
+# no .a files
+*.a
+# pero si lib.a
+!lib.a
+# solo ignorar ficheros del root TODO
+/TODO
+# ignora todos los ficheros del directorio build/
+build/
+# ignora doc/notes.txt, pero no doc/servers/arch.txt
+doc/*.txt
+# ignora todos los .txt en el directorio doc/
+doc/**/*.txt
